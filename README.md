@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-Check **Live Demo** [here.]()
+Check **Live Demo** [here.](https://ujjwalprajapati16.github.io/Movie_app/)
 
 ## Getting Started
 
