@@ -6,6 +6,15 @@ const form = document.getElementById('form')
 const search = document.getElementById('search')
 const main = document.getElementById('main')
 const home = document.getElementById('home')
+const loadMoreBtn = document.getElementById('load-more')
+
+let currentPage = 1;
+
+// Function to load more movies
+function loadMoreMovies() {
+    currentPage++;
+    getMovies(API_URL + currentPage);
+}
 
 
 //get initial movies
@@ -17,6 +26,8 @@ async function getMovies(url){
 
     showMovies(data.results)
 }
+
+
 
 function showMovies(movies){
     main.innerHTML = ''
@@ -50,6 +61,8 @@ function getClassByRate(vote){
     }
 }
 
+loadMoreBtn.addEventListener('click', loadMoreMovies); // Attach the loadMoreMovies function to the button click event
+
 form.addEventListener('submit', (e) => {
     e.preventDefault()
 
@@ -61,6 +74,7 @@ form.addEventListener('submit', (e) => {
     }else{
         window.location.reload()
     }
+    
 })
 
 home.addEventListener('click', () => {
