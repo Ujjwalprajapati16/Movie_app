@@ -39,7 +39,7 @@ To run the project open the downloaded folder (after extraction) then run the "*
 
 👤 **Ujjwal Prajapati**
 
-- GitHub: [@Ujjwalprajapati16](https://github.com/ha-manel)
+- GitHub: [@Ujjwalprajapati16](https://github.com/Ujjwalprajapati16)
 <!-- - LinkedIn: [Manel Hammouche](https://www.linkedin.com/in/manel-hammouche/) -->
 
 ## 🤝 Contributing
