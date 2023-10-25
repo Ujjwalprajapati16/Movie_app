@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Movie App</title>
+    <title>Movie app login</title>
 </head>
-
 <body>
     <header>
         <nav class="nav">
@@ -22,14 +19,19 @@
             <input type="text" class="search" id="search" placeholder="Search">
         </form>
     </header>
+    <!-- form -->
+    <section class="login" id="login">
+        <div class="content">
+            <h3 class="login-h3" style="font-size: 4rem; padding: 30px;">
+                Login Here
+            </h3>
+            <form action="products.html" class="form">
+                <input type="email" name="email" id="" placeholder=" Enter Email" style="padding: 10px; border-radius: 15px;" required>
+                <input type="password" placeholder="Enter password" style="padding: 10px; border-radius: 15px;" required>
 
-    <main id="main">
-
-    </main>
-    <div class="load-more-container">
-        <button id="load-more">Next page</button>
-    </div>
-    <script src="script.js"></script>
+                <button class="button" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
 </body>
-
 </html>

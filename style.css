@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 :root {
-  --primary-color: #212529;
-  --secondary-color: #343a40;
+  --primary-color: #52b788;
+  --secondary-color: #40916c;
   --header-text-color: #fff;
 }
 
@@ -41,7 +41,19 @@ header {
   text-decoration: none;
   margin: 0 10px;
   font-size: 2rem;
-  color: #c77dff;
+  color: #1b4332;
+}
+
+.nav-a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 1.25rem;
+  color: whitesmoke;
+}
+
+.nav-a:hover{
+  color: #3f37c9;
+  transform: scale(1.2);
 }
 
 #short-brand {
@@ -100,6 +112,7 @@ main {
   justify-content: space-between;
   padding: 0.5rem 1rem 1rem;
   letter-spacing: 0.5px;
+  /* background: transparent; */
 }
 
 .movie-info h3 {
@@ -114,19 +127,19 @@ main {
 }
 
 .movie-info span.green {
-  color: lightgreen;
+  color: #2d6a4f;
 }
 
 .movie-info span.orange {
-  color: orange;
+  color: #ee9b00;
 }
 
 .movie-info span.red {
-  color: red;
+  color: #ae2012;
 }
 
 .overview {
-  background-color: #fff;
+  background-color: #d8f3dc;
   padding: 2rem;
   position: absolute;
   left: 0;
@@ -190,4 +203,49 @@ main {
 
 #load-more:hover {
     background-color: #0056b3;
+}
+
+/* Login */
+.login {
+  background-image: url(assests/login.gif);
+  /* background-position: center; */
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.form input{
+  width: 500px;
+  height: 50px;
+  text-align: left;
+  border: solid 1px gray;
+  border-radius: 10px;
+}
+
+.form .button{
+  width: 35%;
+  text-align: center;
+}
+
+.register-home{
+  height: 100vh;
+}
+
+.products .heading{
+  position: relative;
+  top: 80px;
+}
+
+.button{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: black;
+  color: #fff;
+  padding: .9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.6rem;
 }
